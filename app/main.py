@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 from app.routers import users, items
-from app.database import engine, Base
+from app.database.database import engine, Base
 
 # Khởi tạo ứng dụng FastAPI
 app = FastAPI()
